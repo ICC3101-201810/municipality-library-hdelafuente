@@ -1,0 +1,7 @@
+Bonus 1:
+entre las clases hay un error de asociacion, ya que upara gregar un "Address" hay que entregarle
+un "Person" como atributo, y para gregar un "Person" hay que entregarle un "Adress" como atributo, 
+además para agregar un "Person" hay que entregarle dos "Person", upor ende el modelo asume que deben existir
+previamente "Person" y "Address" asociados entre ellos.
+
+Tamupoco son clases esupecificadas como serializables.
