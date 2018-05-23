@@ -5,3 +5,11 @@ C:\Users\ING\Downloads\Nueva carpeta\lab10\lab10\obj\Debug\lab10.csprojResolveAs
 C:\Users\ING\Downloads\Nueva carpeta\lab10\lab10\obj\Debug\lab10.csproj.CoreCompileInputs.cache
 C:\Users\ING\Downloads\Nueva carpeta\lab10\lab10\obj\Debug\lab10.exe
 C:\Users\ING\Downloads\Nueva carpeta\lab10\lab10\obj\Debug\lab10.pdb
+C:\Users\Tomas Garcia\Downloads\lgoalgo\municipality-library-hdelafuente\lab10\bin\Debug\lab10.exe.config
+C:\Users\Tomas Garcia\Downloads\lgoalgo\municipality-library-hdelafuente\lab10\bin\Debug\lab10.exe
+C:\Users\Tomas Garcia\Downloads\lgoalgo\municipality-library-hdelafuente\lab10\bin\Debug\lab10.pdb
+C:\Users\Tomas Garcia\Downloads\lgoalgo\municipality-library-hdelafuente\lab10\obj\Debug\lab10.csprojResolveAssemblyReference.cache
+C:\Users\Tomas Garcia\Downloads\lgoalgo\municipality-library-hdelafuente\lab10\obj\Debug\lab10.csproj.CoreCompileInputs.cache
+C:\Users\Tomas Garcia\Downloads\lgoalgo\municipality-library-hdelafuente\lab10\obj\Debug\lab10.csproj.CopyComplete
+C:\Users\Tomas Garcia\Downloads\lgoalgo\municipality-library-hdelafuente\lab10\obj\Debug\lab10.exe
+C:\Users\Tomas Garcia\Downloads\lgoalgo\municipality-library-hdelafuente\lab10\obj\Debug\lab10.pdb

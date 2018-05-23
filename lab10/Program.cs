@@ -131,7 +131,7 @@ namespace lab10
 
         static void Main(string[] args)
         {
-            //Assembly info = Assembly.LoadFile(@"C:\Users\ING\Downloads\Nueva carpeta\lab10\lab10\bin\Debug\ClassLibrary1.dll");
+            //Assembly info = Assembly.LoadFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\ClassLibrary1"));
             List<Person> lista1 = new List<Person>();
             List<Car> lista2 = new List<Car>();
             List<Address> lista3 = new List<Address>();
@@ -146,15 +146,26 @@ namespace lab10
                 string name = Console.ReadLine();
                 Console.Write("Apellido: ");
                 string last_name = Console.ReadLine();
-                Console.Write("Fecha de nacimiento: ");
-                string bdate = Console.ReadLine();
+                fecha:
+                Console.Write("Fecha de nacimiento(aaaa/mm/dd): ");
+                string algo = Console.ReadLine();
+                try
+                {
+                    DateTime bdate = Convert.ToDateTime(algo);
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine("No cumple con el formato! (aaaa/mm/dd)");
+                    goto fecha;
+                }
+                DateTime algo2 = Convert.ToDateTime(algo);
                 Console.Write("Alma Mater: ");
                 string alma_mater = Console.ReadLine();
                 Console.Write("Grado profesional: ");
                 string degree = Console.ReadLine();
                 Console.Write("Rut: ");
                 string rut = Console.ReadLine();
-                Person add = new Person(name, last_name, DateTime.Now, null, rut, null, null);
+                Person add = new Person(name, last_name, algo2, null, rut, null, null);
                 lista1.Add(add);
                 Console.WriteLine(add.First_name + " " + add.Alma_mater);
 
